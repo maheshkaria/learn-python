@@ -4,3 +4,4 @@ Day 2 - Topics
 - Operations
 - Type conversions
 - F-strings
+- Function
