@@ -29,7 +29,10 @@ my_var: float = 1.0
 print(my_var)
 
 # To take input from user we can use input() and store result in some variable
+# user_input = eval(input("enter a number: "))
+# print(f"user has entered number: %d" % user_input)
 
-user_input = eval(input("enter a number: "))
-print(f"user has entered number: %d" % user_input)
+
+user_input = input("enter a name: ")
+print(f"name %s has %d chars" % (user_input, len(user_input)))
 
