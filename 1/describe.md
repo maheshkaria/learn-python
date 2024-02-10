@@ -4,3 +4,4 @@ Day 1 - Topics
 - Debugging
 - String manipulation
 - Variables
+- User input
