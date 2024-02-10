@@ -25,7 +25,6 @@ print(f"my string is here %s" % "random")
 # variable is placeholder where we can store data/information to use it later using name of variable
 # we can define variable as shown below
 
-my_var = "random value"
-
+my_var: float = 1.0
 print(my_var)
 
