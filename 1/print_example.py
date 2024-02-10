@@ -36,3 +36,11 @@ print(my_var)
 user_input = input("enter a name: ")
 print(f"name %s has %d chars" % (user_input, len(user_input)))
 
+# variable naming convention
+# it should start with alphabet or underscore
+# we can use number but it can not be first char of var name
+# we can not use standard keyword as variable name
+# variable is case sensitive so make sure you are using same case everywhere
+# standard convention is to keep small case for variable name
+
+
