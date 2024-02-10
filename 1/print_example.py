@@ -14,3 +14,18 @@ comment
 
 # Debugging - we can attach break point to a line or function or using logger or print certain values while execution
 
+# To concat string we can use + and concat two string
+
+print("hello" + " " + "world")
+
+# we can use formatter too for concat string
+
+print(f"my string is here %s" % "random")
+
+# variable is placeholder where we can store data/information to use it later using name of variable
+# we can define variable as shown below
+
+my_var = "random value"
+
+print(my_var)
+
