@@ -12,3 +12,16 @@ print(type(True))                       # it will show type bool
 a = 123
 print("value of a: " + str(a))  # we can type cast variable from any data type to any other data type as shown
 
+# math operations
+# + -> adds inputs
+# - -> subtract inputs
+# * -> multiple inputs
+# / -> divides number
+# % -> divides number and return remainder
+# ** -> power operator
+# PEDMAS order is followed from left to right
+
+
+# f-strings if you want to print you have to convert data type to string to avoid type conversion we can use f-strings
+print(f"random number %d %f" % (123, 1.111))
+
