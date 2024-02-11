@@ -27,5 +27,5 @@ a += 1          # a = a + 1 can be re-written as a += 1
 a -= 1          # a = a - 1 can be re-written as a -= 1 and is applicable to multiplication and division as well
 
 # f-strings if you want to print you have to convert data type to string to avoid type conversion we can use f-strings
-print(f"random number %d %f" % (123, 1.111))
+print(f"random number {a}")
 
