@@ -6,3 +6,4 @@ items = ["item1", "item2", "item3"]
 for each_item in items:
     print(each_item)
 
+print(items)
