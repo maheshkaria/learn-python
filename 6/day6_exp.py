@@ -16,7 +16,7 @@ my_first_function() # function call
 
 #################################################
 # while loop - a piece of code runs continuously until some condition is True and execution stops only condition
-# becomes False. Programmer needs to be mindful while using while loop and ensure exit condition meets periodically.
+# becomes False. Programmer needs to be mindful while using while loop and ensure exit condition is reachable
 
 i = 0
 while i < 10:
