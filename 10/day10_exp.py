@@ -18,7 +18,9 @@ def my_function_square_new(n):
     return n ** 2
     print(n ** 2)
 
+
 print(my_function_square_new(2))
+
 
 #############################################################################
 # Docstring is used to comment and provide documentation
@@ -34,4 +36,14 @@ def my_function_square_doc(n):
 
 my_function_square_doc(5)
 
+
 #############################################################################
+# Recursion is process of calling same function within that function
+
+def calculate_factorial(n):
+    if n == 1 or n == 0:
+        return 1
+    return n * calculate_factorial(n - 1)
+
+
+print(calculate_factorial(5))
