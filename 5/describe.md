@@ -1,4 +1,4 @@
 Day 5 - Topics
-- Loops
+- Loops (for)
 - Range
 - Code blocks
