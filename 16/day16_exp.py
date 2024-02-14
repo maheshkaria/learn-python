@@ -12,6 +12,16 @@
 # Name of object follows camel case
 ###############################################################
 
-from turtle import Turtle
+from turtle import Turtle, Screen
 
 timmy = Turtle()
+timmy.shape("turtle")
+timmy.color("red", "green")
+
+timmy.forward(300)
+timmy.backward(300)
+my_screen = Screen()
+
+
+print(my_screen.canvwidth)
+my_screen.exitonclick()
