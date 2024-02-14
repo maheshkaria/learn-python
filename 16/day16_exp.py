@@ -1,4 +1,17 @@
 ###############################################################
 # Earlier we had procedural programming where execution used to happen sequentially but with complex problems
 # there was need to better way to solve programming problems and OOPs came as one of the solution
+#
+# Class is nothing but logical representation of some real world entity
+# and to access its attributes i.e. vars and methods, we need to object of that class.
+# Object can provide access to method and variables of a class.
+#
+# We can create class using class keyword and following example shows creation of object.
+# We can create as many objects of a given class.
+# Name of class begins with Upper case as per Pascal Convention
+# Name of object follows camel case
 ###############################################################
+
+from turtle import Turtle
+
+timmy = Turtle()
