@@ -11,17 +11,29 @@
 # Name of class begins with Upper case as per Pascal Convention
 # Name of object follows camel case
 ###############################################################
+#
+# from turtle import Turtle, Screen
+#
+# timmy = Turtle()
+# timmy.shape("turtle")
+# timmy.color("red", "green")
+#
+# timmy.forward(300)
+# timmy.backward(300)
+# my_screen = Screen()
+#
+#
+# print(my_screen.canvwidth)
+# my_screen.exitonclick()
 
-from turtle import Turtle, Screen
+###############################################################
+from prettytable import PrettyTable
 
-timmy = Turtle()
-timmy.shape("turtle")
-timmy.color("red", "green")
+pretty = PrettyTable(field_names=["field 1", "field 2"])
+pretty.add_row(["my data r1", "my data again"])
+pretty.add_row(["my data r2", "my data again"])
+pretty.add_row(["my data r3", "my data again"])
+pretty.add_autoindex("sr no")
+print(pretty)
 
-timmy.forward(300)
-timmy.backward(300)
-my_screen = Screen()
-
-
-print(my_screen.canvwidth)
-my_screen.exitonclick()
+print(pretty)
