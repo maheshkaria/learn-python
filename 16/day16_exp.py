@@ -25,7 +25,7 @@
 #
 # print(my_screen.canvwidth)
 # my_screen.exitonclick()
-
+#
 ###############################################################
 from prettytable import PrettyTable
 
@@ -34,6 +34,12 @@ pretty.add_row(["my data r1", "my data again"])
 pretty.add_row(["my data r2", "my data again"])
 pretty.add_row(["my data r3", "my data again"])
 pretty.add_autoindex("sr no")
-print(pretty)
+pretty.align = "l"
 
 print(pretty)
+
+###############################################################
+
+
+###############################################################
+###############################################################
