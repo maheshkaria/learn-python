@@ -11,7 +11,7 @@ class Car:
     name: str = ""
 
     """
-    __init__() is constructor which gets called as soon as object is created
+    def __init__() is constructor which gets called as soon as object is created
     
     """
     def __init__(self, color, name):
