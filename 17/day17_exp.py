@@ -14,13 +14,21 @@ class Car:
     def __init__() is constructor which gets called as soon as object is created
     constructor is used to provide values for object initialization
     class variables are accessed using self keyword
+    we can also create variables with default value example sold -> value
     """
     def __init__(self, color, name):
         self.color = color
         self.name = name
+        self.sold = False
 
     def print_color(self):
         print(f"color of car is {self.color}")
+
+    def is_car_available(self):
+        if not self.sold:
+            print("car is available")
+        else:
+            print("car is not available")
 
     def __repr__(self):
         return "color is " + self.color
@@ -35,3 +43,5 @@ print(my_car.color)
 
 # how to access method ?
 my_car.print_color()
+
+my_car.is_car_available()
