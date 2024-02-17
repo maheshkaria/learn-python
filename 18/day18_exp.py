@@ -1,3 +1,9 @@
+#############
+## we can install packages using pip
+# pip install numpy <- run in terminal to install this package
+#####
+
+
 from turtle import Turtle, Screen
 
 tim = Turtle()
