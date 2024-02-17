@@ -12,7 +12,7 @@ class Car:
 
     """
     def __init__() is constructor which gets called as soon as object is created
-    
+    constructor is used to provide values for object initialization
     """
     def __init__(self, color, name):
         self.color = color
