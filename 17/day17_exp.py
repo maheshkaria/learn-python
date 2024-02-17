@@ -14,10 +14,19 @@ class Car:
         self.color = color
         self.name = name
 
+    def print_color(self):
+        print(f"color of car is {self.color}")
+
     def __repr__(self):
         return "color is " + self.color
 
+
 # following is example of creation of object
 my_car = Car("red", "model X")
-
 print(my_car)
+
+# how to access class variable/attribute ?
+print(my_car.color)
+
+# how to access method ?
+my_car.print_color()
