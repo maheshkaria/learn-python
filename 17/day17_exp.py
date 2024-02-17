@@ -10,6 +10,10 @@ class Car:
     color: str = ""
     name: str = ""
 
+    """
+    __init__() is constructor which gets called as soon as object is created
+    
+    """
     def __init__(self, color, name):
         self.color = color
         self.name = name
