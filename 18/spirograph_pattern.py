@@ -4,13 +4,15 @@ t = Turtle()
 colormode(255)
 t.speed(100)
 
+step_size = randint(0, 20)
 
 while True:
-    step_size = randint(10, 20)
+    count = 2
+    step_size += count
     for _ in range(0, 360, step_size):
         t.pencolor(randint(0, 255), randint(0, 255), randint(0, 255))
-        t.circle(step_size + _)
+        t.circle(step_size * count)
         t.setheading(_)
-        t.width(randint(0, 5))
+    count += 10
 scr = Screen()
 scr.exitonclick()
