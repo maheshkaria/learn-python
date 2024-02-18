@@ -5,11 +5,11 @@ scr = Screen()
 
 
 def move_forwards():
-    tim.forward(10)
+    tim.forward(20)
 
 
 def move_backwards():
-    tim.backward(10)
+    tim.backward(20)
 
 
 def clear_screen():
@@ -17,13 +17,13 @@ def clear_screen():
 
 
 def move_clockwise():
-    for _ in range(10):
+    for _ in range(20):
         tim.setheading(tim.heading() + 1)
         tim.forward(1)
 
 
 def move_anti_clockwise():
-    for _ in range(10):
+    for _ in range(20):
         tim.setheading(tim.heading() - 1)
         tim.forward(1)
 
