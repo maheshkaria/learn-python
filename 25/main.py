@@ -1,17 +1,22 @@
-# with open("my_file.txt") as my_file:   # read mode
-#     print(my_file.read())
+# import csv
+#
+# with open("weather_data.csv") as input_file:
+#     data = csv.reader(input_file)
+#     temperature = []
+#     for row in data:
+#         print(row)
+#         if row[1] != "temp":
+#             temperature.append(int(row[1]))
+#
+#     print(temperature)
+#
 
-with open("my_file.txt", "w") as my_file:   # write mode
-    my_file.write("my content")
 
-with open("my_file.txt", "a") as my_file:   # append mode
-    my_file.write("\nmy new content")
+# Pandas library helps in data analysis
+# we can install pandas using 'pip install pandas'
 
-# absolute path is path w.r.t. root of system
-with open("C:\\Users\\pc\\PycharmProjects\\learn-python\\24\\random_folder\\file1.txt") as read_file:
-    print(read_file.read())
+import pandas as pd
 
-# relative path is path w.r.t. program from where it is running
-with open(".\\random_folder\\file2.txt") as read_file:
-    print(read_file.read())
-
+df = pd.read_csv("weather_data.csv")
+print(df["temp"])
+print(df)
