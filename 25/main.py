@@ -10,8 +10,7 @@
 #
 #     print(temperature)
 #
-
-
+import pandas
 # Pandas library helps in data analysis
 # we can install pandas using 'pip install pandas'
 
@@ -46,4 +45,23 @@ print(df.condition)     # we can use dot notation with pandas dataframe like thi
 print(df[df.day == "Monday"])
 
 print(df[df.temp == df.temp.max()])
+
+
+monday_temp = df[df.day == "Monday"].temp
+print((monday_temp * 9/5) + 32)
+
+
+# create dataframe from scratch
+data_dict = {
+    "students": ["abc", "def", "ghi"],
+    "scores": [21, 22, 55]
+}
+
+data_df = pandas.DataFrame(data_dict)
+data_df.to_csv("new_file.csv", index=False)
+print(data_df)
+
+
+
+
 
