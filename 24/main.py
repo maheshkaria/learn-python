@@ -14,3 +14,4 @@ with open("C:\\Users\\pc\\PycharmProjects\\learn-python\\24\\random_folder\\file
 # relative path is path w.r.t. program from where it is running
 with open(".\\random_folder\\file2.txt") as read_file:
     print(read_file.read())
+
