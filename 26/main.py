@@ -1,3 +1,5 @@
+import random
+
 # how to create list using list comprehensions
 
 # list comprehension is created using another sequence such as set/list/tuple/string
@@ -17,4 +19,17 @@ print(new_list)
 new_list = [item for item in my_list if item % 2 == 0]
 
 print(new_list)
+
+# dictionary comprehension is to create new dictionary using existing dictionary
+
+names = ['a', 'f', 'd', 'o']
+
+# dict comprehension example
+names_dict = {new_key: random.randint(1, 100) for new_key in names}
+print(names_dict)
+
+
+# dict comprehension with filter
+passed_names_dict = {key: val for (key, val) in names_dict.items() if val > 50}
+print(passed_names_dict)
 
