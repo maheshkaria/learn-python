@@ -1,4 +1,5 @@
 import random
+import pandas as pd
 
 # how to create list using list comprehensions
 
@@ -33,3 +34,17 @@ print(names_dict)
 passed_names_dict = {key: val for (key, val) in names_dict.items() if val > 50}
 print(passed_names_dict)
 
+# how to iterate over pandas dataframe
+
+student_dict = {
+    "student": ["a", "b", "c"],
+    "score": [45, 85, 65]
+}
+
+student_df = pd.DataFrame(student_dict)
+print(student_df)
+
+for (index, val) in student_df.iterrows():
+    if val.score > 50:
+        print(val.student)
+        print(val.score)
