@@ -1,0 +1,32 @@
+/*
+Following element selector will change colour of content/text within h2 tag
+*/
+
+h2 {
+    color: red;
+}
+
+/*
+Following element selector be applied to all the elements having class my-class.
+A class selector can be applied to multiple elements.
+*/
+.my-class {
+    color: blue;
+}
+
+/*
+An id selector can be applied to only one element per file.
+*/
+#my-id {
+    color: green;
+}
+
+/* following selector will be applied to para with draggable false */
+p[draggable="false"]{
+    color: red;
+}
+
+/* following is universal selector and it will be applicable to every element*/
+* {
+margin: 10px;
+}
