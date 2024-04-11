@@ -5,9 +5,21 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- this is example of internal styling here we can define properties which are applicable for this document
+    however for multi-document project inline or internal should not be used rather we should use external
+    --->
+    <style>
+        html {
+            border-style: solid;
+        }
+    </style>
     <title>Document</title>
 </head>
-<body>
+<body style="background: grey"> <!-- this is example of setting up inline css property
+which is kind of not recommended as we have many tags in document and its difficult to maintain -->
+
+test
+
 
 </body>
 </html>

@@ -6,3 +6,4 @@ Day 43 - Topics
   3. It is used beautify html documents
   4. Basically HTML is for content and CSS is for stylizing
   5. We can attach css file to html document with the help of link tag
+  6. We have inline, internal and external stylizing methods
